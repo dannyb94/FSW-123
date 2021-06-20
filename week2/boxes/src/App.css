@@ -1,0 +1,13 @@
+.leBoxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span {
+    padding: 0 65px;
+    flex-shrink: 0;
+}
+
+hr {
+    margin: auto;
+}
