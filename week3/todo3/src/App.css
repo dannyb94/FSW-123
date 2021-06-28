@@ -21,3 +21,12 @@ li {
     margin: 5px;
     color: rgb(218, 105, 129);
 }
+
+button {
+    background-color: rgb(189, 228, 112);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
