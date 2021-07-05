@@ -1,0 +1,36 @@
+* {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    padding-left: 5px;
+}
+
+h1 {
+    font-size: 30px;
+    color: lightseagreen;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: inherit;
+}
+
+li {
+    margin: 5px;
+    color: rgb(218, 105, 129);
+}
+
+.bye {
+    background-color: rgb(189, 228, 112);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.enterNew {}
+
+.sub {}

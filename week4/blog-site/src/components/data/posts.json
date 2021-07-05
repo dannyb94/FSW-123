@@ -1,0 +1,19 @@
+[
+    {
+        "title": "What To Do",
+        "slug": "post1-what-to-do",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+
+    {
+        "title": "When You Don't Know",
+        "slug": "post2-when-you-dont-know",
+        "content": "Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Dui sapien eget mi proin sed libero enim sed."
+    },
+
+    {
+        "title": "What To Do",
+        "slug": "post3-what-to-do",
+        "content": "Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Dui sapien eget mi proin sed libero enim sed."
+    }
+]

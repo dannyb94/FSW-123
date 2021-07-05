@@ -1,0 +1,102 @@
+* {
+    font-family: 'Noto Serif SC', serif;
+}
+
+div{
+    margin: 0 6px;
+}/**/
+
+/*Header Container Styles*/
+.link {
+    margin: 0 15px;
+    color: olive;
+    text-decoration: none;
+}
+
+#specialOp{
+    margin-left: 2px;
+    margin-right: 15px;
+    color: olive;
+    text-decoration: none;
+}
+
+.link, #specialOp {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/*Blog Pg Styles*/
+#noSpace {
+    margin: 0;
+}
+
+#blogCntnr {
+    box-shadow: rgba(0, 0, 0, 0.037) 9px 6px;
+    border-radius: 5px;
+    padding: 20px 0;
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(255, 187, 0);
+    /*border: solid 2px rgb(255, 187, 0);*/
+    background: white;
+}
+
+h3 {
+    text-decoration: none;}
+
+#wrap {
+    padding: 0 4px;
+    margin: 0;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgb(255, 206, 122), rgb(209, 122, 170));
+}
+
+/*About Pg Styles*/
+.abtPgPar {
+    text-indent: 15px;
+    font-weight: 300;
+}
+
+/*Contact Pg Styles*/
+.labels {
+    padding: 27px 0;
+}
+
+input, textarea {
+    border: solid 2px rgba(215, 226, 228, 0.893);
+    border-radius: 4px;
+    margin: 9px 0;
+}
+
+input {
+    margin-left: 6px;
+}
+
+::placeholder {
+    color: rgba(215, 226, 228, 0.832);
+}
+
+#conPgPar {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.send {
+    border-radius: 5px;
+    border: none;
+    background-color: olive;
+    color: rgb(236, 232, 227);
+    padding: 3 6px;
+}
+
+.send:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.send:active {
+    background-color: olive;
+    color: rgb(236, 232, 227);
+}
