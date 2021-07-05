@@ -1,10 +1,20 @@
 * {
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 div {
     padding-left: 5px;
+}
+
+/*ToDoList.js Styles*/
+.bye {
+    background-color: rgb(189, 228, 112);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
 }
 
 h1 {
@@ -22,15 +32,17 @@ li {
     color: rgb(218, 105, 129);
 }
 
-.bye {
-    background-color: rgb(189, 228, 112);
-    color: rgb(255, 255, 255);
-    margin-left: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 17px;
+/*App.js Styles*/
+#special {
+    color:tomato;
+    background-color: seashell;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .enterNew {}
 
-.sub {}
+.sub {
+    border-radius: 4px;
+    border: solid 1px rgb(241, 201, 70);
+}
