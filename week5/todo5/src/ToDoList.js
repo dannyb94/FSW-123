@@ -22,8 +22,8 @@ export default class ToDo extends React.Component {
                             <li>
                                 <form className="enterNew"  id={this.state.id}  onSubmit={(e) => {
                                     this.props.editTodo (e)
-                                    this.setState({edit:false, id: item.id})}}
-                                >
+                                    this.setState({edit:false, id: item.id})}
+                                }>
                                     <label>
                                         <input className="sub" name="editValue" type="text"  value={this.props.value}  onChange={this.props.handleChange} />
                                     </label>
@@ -31,7 +31,7 @@ export default class ToDo extends React.Component {
                                 </form>
                                 <button className="close" onClick={() => {
                                     this.setState({edit:false, id: item.id})
-                                }}>close</button> 
+                                }}>cancel</button> 
                             </li>
                         )
                         : (<li>

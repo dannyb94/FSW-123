@@ -43,6 +43,16 @@ class App extends React.Component {
     var newArray = this.state.items.map(item => {
       if(e.currentTarget.id === item.id){
         item.text = this.state.editValue
+        // if (this.state.value.length > 1){
+        //   alert("Task updated! " + this.state.value)
+
+        //   var newItem = {
+        //     id: uuidv4(),
+        //     text: this.state.value,
+        //     isCompleted: false}
+        // } else {
+        //   alert("No text was entered.")
+        // }
         // if(item.isCompleted === true){
         //   item.isCompleted = false
         //   return item
