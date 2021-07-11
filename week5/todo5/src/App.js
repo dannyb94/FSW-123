@@ -38,7 +38,7 @@ class App extends React.Component {
   }
 
   editTodo = (e) => {
-    console.log("this checkbox was checked", e.target)
+    console.log("this item was edited", e.target)
     e.preventDefault()
     var newArray = this.state.items.map(item => {
       if(e.currentTarget.id === item.id){
