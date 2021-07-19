@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UserContext } from "../context";
 
 export default class ToDo extends React.Component {
     constructor () {
@@ -7,6 +8,8 @@ export default class ToDo extends React.Component {
     }
 
     render(){
+        const context = useContext(UserContext);
+    
         const listItems = this.props.items.map((item) => {
             console.log(item)
             var id = item.id
