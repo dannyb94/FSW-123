@@ -1,0 +1,66 @@
+* {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    padding-left: 5px;
+}
+
+/*ToDoList.js Styles*/
+.bye{
+    background-color: rgb(189, 228, 112);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.edit {
+    background-color: rgb(112, 226, 228);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.close {
+    background-color: rgb(255, 193, 101);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 30px;
+    color: lightseagreen;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: inherit;
+}
+
+li {
+    margin: 5px;
+    color: rgb(218, 105, 129);
+}
+
+/*App.js Styles*/
+#special {
+    color:tomato;
+    background-color: seashell;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.enterNew {}
+
+.sub {
+    border-radius: 4px;
+    border: solid 1px rgb(241, 201, 70);
+}
