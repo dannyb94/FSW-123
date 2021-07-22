@@ -1,5 +1,5 @@
 //import './App.css';
-//import ToDo from './components/ToDoList';
+import ToDo from './components/ToDoList';
 import { items } from './components/store';
 import React from "react";
 import { v4 as uuidv4 } from 'uuid';
@@ -87,9 +87,10 @@ class UserProvider extends React.Component {
   }
 
   render(){
+    const {dltBtn, handleChange, handleSubmit, editTodo, toggleComplete, state} = this
     return (
-        <UserContext.Provider value = {{dltBtn, handleChange, handleSubmit, editTodo, toggleComplete}}>
-            {props.children}
+        <UserContext.Provider value = {{dltBtn, handleChange, handleSubmit, editTodo, toggleComplete, state}}>
+            
         <h1>Checklist</h1>
 
         <form className="enterNew"  onSubmit={this.handleSubmit}>
@@ -98,9 +99,9 @@ class UserProvider extends React.Component {
           </label>
           <input className="sub"  id="special"  type="submit"  value="Submit" />
         </form>
-
-        <ToDo items = {this.state.items}  handleChange = {this.handleChange}  value = {this.state.editValue} 
-         toggleComplete = {this.toggleComplete}  editTodo = {this.editTodo}  dltBtn = {this.dltBtn}/> {/*  */}
+        {this.props.children}
+        {/*<ToDo items = {this.state.items}  handleChange = {this.handleChange}  value = {this.state.editValue} 
+         toggleComplete = {this.toggleComplete}  editTodo = {this.editTodo}  dltBtn = {this.dltBtn}/>   */}
         </UserContext.Provider>
     )
   }
