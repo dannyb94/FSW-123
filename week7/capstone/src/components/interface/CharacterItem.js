@@ -2,8 +2,8 @@ import React from 'react';
 
 const CharacterItem = ({ item }) => {
     return(
-        <div id='outerBox'>
-            <div id='innerBox'>
+        <div className='outerBox'>
+            <div className='innerBox'>
                 <div className='front'>
                     <img src={item.image} alt='' />
                 </div>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CharacterGrid from '../interface/CharacterGrid';
-//import CharacterItem from '../interface/CharacterItem';
 import Search from '../interface/Search';
 
 export default function Characters(){
@@ -13,9 +12,9 @@ export default function Characters(){
         const getData = async () => {
             const getApi = await axios(`https://rickandmortyapi.com/api/character/?name=${query}`)
 
-            console.log(getApi.data)
+            console.log(getApi.data.results)
 
-            setItems(getApi.data)
+            setItems(getApi.data.results)
             setLoading(false)
         }
 
@@ -26,7 +25,7 @@ export default function Characters(){
     return(
         <div>
             <Search getQuery={(e) => setQuery(e)} />
-            {/* <CharacterGrid loading={loading} items={items} /> */}
+            <CharacterGrid loading={loading} items={items} />
         </div>
     )
 }

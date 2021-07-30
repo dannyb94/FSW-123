@@ -12,7 +12,8 @@ const CharacterGrid = ({ items, loading }) => {
                 <>
                     <section className='peeps'>
                         {items.map((item) => {
-                            return <CharacterItem key={item.id} item={item}></CharacterItem>
+                            console.log(item)
+                            return (<CharacterItem key={item.id} item={item}/>)
                         })}
                     </section>
                 </>
